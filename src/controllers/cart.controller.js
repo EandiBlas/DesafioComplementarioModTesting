@@ -58,13 +58,13 @@ class CartsController {
     try {
       const fuser = await this.userService.findUser(req.session.username)
       const { products } = req.body;
-      console.log(products)
       if (!Array.isArray(products)) {
         return res.status(400).send('Invalid request: products must be an array');
       }
       const cart = await this.service.createCart(products, fuser.email);
       res.status(200).json({ message: "Carrito creado", cart })
     } catch (error) {
+      console.log(error)
       res.status(500).json({ error: "Necesitas loguearte para crear el carrito" });
     }
   };

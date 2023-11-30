@@ -14,7 +14,7 @@ router.get('/:cid', cc.getCartById)
 router.post('/', cc.createCart)
 //Añadir productos al carrito
 router.post('/:cid', privateAcces, cc.addProductToCart)
-// Ruta para finalizar la compra de un carrito VOY POR ACÁ
+// Ruta para finalizar la compra de un carrito
 router.get('/:cid/purchase', privateAcces, cc.finalizeCartPurchase);
 // // ENDPOINT para cambiar la cantidad de un producto en el carrito
 router.put('/:cid/products/:pid', privateAcces, cc.updateProductQuantityInCart)

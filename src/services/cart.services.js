@@ -44,7 +44,7 @@ class CartService {
       const checkId = await this.product.getProductById(product.product._id);
       if (checkId === null) {
         throw new Error(`Product with ID ${product._id} does not exist`);
-        
+
       }
       validProducts.push(product);
     }

@@ -100,3 +100,5 @@ const socketServer = new Server(httpServer)
 socketCart(socketServer)
 socketProducts(socketServer)
 socketChat(socketServer)
+
+export default app;

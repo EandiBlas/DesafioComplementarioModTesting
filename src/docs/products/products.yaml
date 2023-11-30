@@ -24,7 +24,7 @@ paths:
                 category:
                   type: string
       responses:
-        200:
+        201:
           description: Respuesta exitosa
           content:
             application/json:
