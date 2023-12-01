@@ -51,7 +51,6 @@ class CartService {
     cartData.purchaser = vemail;
     cartData.products = validProducts;
     let carrito = await this.cart.addCart(cartData)
-    console.log(carrito)
     return carrito
   };
 

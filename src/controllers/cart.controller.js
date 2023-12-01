@@ -56,9 +56,7 @@ class CartsController {
 
   createCart = async (req, res) => {
     try {
-      console.log(req.cookies)
-      const username = req.session.username == undefined ? req.cookies.username : req.session.username;
-      const fuser = await this.userService.findUser(username)
+      const fuser = await this.userService.findUser(req.session.username)
       const { products } = req.body;
       if (!Array.isArray(products)) {
         return res.status(400).send('Invalid request: products must be an array');

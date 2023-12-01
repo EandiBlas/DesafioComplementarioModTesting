@@ -506,3 +506,23 @@
 [2023-11-30 21:31:41] [31merror[39m: Error el producto buscado no existe //loggerTest//
 [2023-11-30 21:33:17] [31merror[39m: Error el producto buscado no existe //loggerTest//
 [2023-11-30 21:34:05] [31merror[39m: Error el producto buscado no existe //loggerTest//
+[2023-11-30 23:57:32] [31merror[39m: Error al traer todos los productos //loggerTest//
+[2023-11-30 23:57:40] [31merror[39m: Error al traer todos los productos //loggerTest//
+[2023-11-30 23:57:41] [31merror[39m: Error el producto buscado no existe //loggerTest//
+[2023-12-01 00:00:42] [31merror[39m: Error al traer todos los productos //loggerTest//
+[2023-12-01 00:00:42] [31merror[39m: Error el producto buscado no existe //loggerTest//
+[2023-12-01 00:06:15] [31merror[39m: Error al traer todos los productos //loggerTest//
+[2023-12-01 01:20:48] [31merror[39m: Error el producto buscado no existe //loggerTest//
+[2023-12-01 01:32:01] [31merror[39m: Error el producto buscado no existe //loggerTest//
+[2023-12-01 01:42:40] [31merror[39m: Error el producto buscado no existe //loggerTest//
+[2023-12-01 10:26:32] [31merror[39m: Error al intentar eliminar un producto del carrito //loggerTest//
+[2023-12-01 10:26:33] [31merror[39m: Error al intentar vaciar el carrito //loggerTest//
+[2023-12-01 10:26:34] [31merror[39m: Error al actualizar la cantidad del producto //loggerTest//
+[2023-12-01 13:10:25] [31merror[39m: Error al actualizar la cantidad del producto //loggerTest//
+[2023-12-01 13:20:42] [31merror[39m: Error al actualizar la cantidad del producto //loggerTest//
+[2023-12-01 13:21:36] [31merror[39m: Error al actualizar la cantidad del producto //loggerTest//
+[2023-12-01 13:28:11] [31merror[39m: Error al actualizar la cantidad del producto //loggerTest//
+[2023-12-01 13:31:47] [31merror[39m: Error al actualizar la cantidad del producto //loggerTest//
+[2023-12-01 13:32:40] [31merror[39m: Error al actualizar la cantidad del producto //loggerTest//
+[2023-12-01 13:38:41] [31merror[39m: Error al actualizar la cantidad del producto //loggerTest//
+[2023-12-01 13:39:08] [31merror[39m: Error al actualizar la cantidad del producto //loggerTest//

@@ -52,8 +52,6 @@ app.set('views',__dirname+'/views')
 app.set('view engine', 'handlebars')
 
 app.use(cookieParser('SecretKeyCookies'))
-
-
 app.use(session({
     store: new MongoStore({
         mongoUrl: config.mongo_uri

@@ -11,7 +11,6 @@ class ProductController {
 
 
     addProduct = async (req, res) => {
-
         try {
 
             if (!req.session.username) {
@@ -29,7 +28,7 @@ class ProductController {
             }
 
             req.body.owner = userEmail;
-
+            
             const result = await this.service.addProduct(req.body);
 
             if (result.error) {
